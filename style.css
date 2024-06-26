@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+    background-color: aqua;
+    background-image: url(https://cdn.vectorstock.com/i/1000v/40/09/drum-clip-art-cartoon-vector-1504009.jpg );
+}
+
+h1{
+    text-shadow: 1px 1px 5px rgb(16, 14, 14) ;
+    color: rgb(51, 43, 43);
+}
+.w{
+    background-image: url(images/tom1.png) ;
+}
+.a{
+    background-image: url(images/tom2.png);
+}
+.s{
+    background-image: url(images/tom3.png);
+}
+.d{
+    background-image: url(images/tom4.png);
+}
+.j{
+    background-image: url(images/crash.png);
+}
+.k{
+    background-image:url(images/snare.png) ;
+}
+.l{
+    background-image: url(images/kick.png);
+}
+.set{
+    margin: 10% auto;
+}
+.pressed{
+    box-shadow: 0 3px 4px 0 black;
+}
+.drum {
+    width: 150px;
+    height: 150px;
+    outline: none;
+    font-size: 6rem;
+    color: aliceblue;
+    backdrop-filter: blur(2px);
+    text-shadow: 3px 0 black;
+    display: inline-block;
+    background-color: antiquewhite;
+}
